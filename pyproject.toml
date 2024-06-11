@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "diplom"
+version = "0.1.0"
+description = ""
+authors = ["katimanova <nkaliman00@mail.ru>"]
+readme = "README.md"
+package-mode = false 
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+openai = "^1.17.1"
+gensim = "^4.3.2"
+wget = "^3.2"
+langchain = "^0.1.16"
+lxml = "^5.2.1"
+llamaapi = "^0.1.36"
+gigachain = "^0.1.16"
+gigachat = "^0.1.23"
+llama-index = "^0.10.30"
+langchain-openai = "^0.1.3"
+faiss-cpu = "^1.8.0"
+pypdf = "^4.2.0"
+pypdfium2 = "^4.29.0"
+pymupdf = "^1.24.2"
+prettytable = "^3.10.0"
+markdown = "^3.6"
+datasets = "^2.19.0"
+ragas = "^0.1.7"
+langchain-text-splitters = "^0.0.1"
+pdfplumber = "^0.11.0"
+haystack = "^0.42"
+haystack-ai = "^2.1.1"
+nltk = "^3.8.1"
+evaluate = "^0.4.2"
+tensorflow-hub = "^0.16.1"
+
+spacy = "^3.0.0"
+ru-core-news-sm = "*"
+pymorphy3 = "^2.0.1"
+scikit-learn = "^1.4.2"
+pdfminer-six = "^20231228"
+pdfminer = "^20191125"
+langchain-core = "^0.1.52"
+document = "^1.0"
+langsmith = "^0.1.59"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,5 @@
+faithfulness: 0.7696969696969697
+context_relevancy: 0.8944457245263696
+context_precision: 0.9775280897898875
+answer_relevancy: 0.6953623156912788
+answer_similarity: 0.9302584983388578
